@@ -1,0 +1,166 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.container-fluid{margin: 0; padding: 0;}
+html{scroll-behavior: smooth;}
+
+/*START OF HEADER*/
+nav.fixed-top {padding: 0;}
+a.navbar-brand  {padding: 0; width: 5%;} 
+a.navbar-brand img {width: 100%;}
+nav  div img {width: 100%; margin: 0 10px 0 0;}
+div.navbar-collapse  ul li:hover{border-bottom: 2px solid #f44336;}
+div.overlay {background-image: url(../Images/cover.jpg); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; height: 650px; position: relative;}
+div.header-content {background-color: rgba(236, 51, 55, 0.7); height: 100%;}
+div.header-content div div a{text-decoration: none; color: #fff; padding: 10px 20px; border: 2px solid#fff; font-weight: 500; transition-duration: 0.5s;}
+div.header-content div div a:hover{background-color: #fff; color: #f44336;}
+div.header-content div div a i {font-size: 16px; margin: 0 0 0 5px; vertical-align: center;}
+div.header-content div div h1 { font-size: 60px; font-weight: 700; text-shadow: 0px 5px 10px #af2424; margin: 0 0 10px;}
+div.header-content div div h4 {margin: 0 0 40px;}
+div.show-more { animation-iteration-count: infinite; animation-duration: 2s; animation-name: arrow-animation; text-align: center; position: absolute; top: 80%; left: 0; right: 0;}
+div.show-more a {text-decoration: none;}
+@keyframes arrow-animation
+{
+    0%
+    {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+    }
+    50%
+    {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+}
+    100%
+    {
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+    }
+}
+/*END OF HEADER*/
+
+
+
+
+
+
+
+/*start of about me*/
+section.about-me {width: 100%; padding: 5% 0;}
+.profile img {width: 100%;}
+div.about-me-data h2 {font-weight: 700; color: #363434;}
+div.about-me-data p { font-size: 16px; font-weight: 300; color: #777777;}
+ul.contact-me  li {display: inline;}
+ul.contact-me  li a { text-decoration: none; border: 1px solid #999; color: #333333; padding: 10px; opacity: 0.7; margin: 0 10px 0 0; transition-duration:  0.5s;}
+ul.contact-me li a:hover { color: #fff; background-color: #af2424; opacity: 1;}
+div.skill div div h2 {text-transform: uppercase; font-weight: 600;}
+div.skill {margin: 10% 0;}
+div.skill div div p {color: #777777;}
+div.about-me a { background-color: #ec3237; color: #fff; padding: 10px 20px; text-decoration: none; transition-duration: 0.5s}
+section.about-me div div div a:hover {background-color: #b82429;}
+div.process {padding: 7px 0;}
+div.progress-title span {margin: 20px 0 0 0;}
+.progress {height: 12px; line-height: 12px;}
+/*end of about me*/
+
+
+
+
+
+
+
+/*start of my services*/
+section.my-services {background-color: #f5f5f5; padding: 5% 0;}
+div.card {margin: 10px 0;}
+div.card-body i {font-size: 30px;}
+div.card div.card-body i, div.card div.card-body h2 {transition-duration: 0.5s;}
+div.card:hover  div.card-body i, div.card:hover div.card-body h2 {color: #ec3237;}
+div.works {margin: 5% 0 6%;}
+div.card-body i {color: #575757;}
+div.card-body h2 {font-size: 22px; font-weight: 600; color: #575757;}
+div.card-body p {font-size: 16px; font-weight: 300; color: #777777;}
+section.my-services div a { text-decoration: none; color: #fff; padding: 10px 20px; transition-duration: 0.2s; background-color: #ec3237;}
+section.my-services div a:hover {background-color: #af2424;}
+/*START OF MODAL*/
+.modal-body img{width: 100%;}
+.modal-footer button {text-align: center;}
+.mfp-close {color: red; right: -6px; text-align: right; padding-right: 6px;}
+a:not([href]):not([tabindex]) { text-decoration: none; background-color: #fff; float: right; font-size: 23px; color: #777; border-radius: 50%;-webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;}
+/*END OF MODAL*/
+/*END OF MY SERVICES*/
+
+
+
+
+
+
+
+
+/*start of my total-works*/
+section.total-works { background-image: url(../Images/project-counter.jpg); background-attachment: fixed; padding: 5% 0;}
+div.total-works-content div  div {border : 1px solid #575757; padding: 20px 0px; margin: 5px 0;}
+div.total-works-content div i {font-size: 40px;}
+div.total-works-content div h1 {padding: 10px 0;}
+div.total-works-content div h2 {font-weight: 500; font-size: 20px;}
+div.total-works-content div i ,div.total-works-content  div h2 {color:#ec3237;}
+/*end of my total-works*/
+
+
+
+
+
+
+
+
+/*start of my portfoilo*/
+section.portfoilo { background-color: #f5f5f5; width: 100%; padding: 5% 0;} 
+.portfoilo-title h2 {font-weight: 800; color: #333333;}
+.portfoilo-title p {color: #777777;}
+ul.list-unstyled a { text-decoration: none;}
+ul.list-unstyled a li {display: inline; margin: 0 5px; border: 1px solid #575757; padding: 5px 10px ; font-weight: 500; color: #333333;}
+div.card {position: relative;}
+div.card-body a { position: absolute; top: 70%; left: 0; right: 0; text-decoration: none;}
+div.card-body a i {color: #fff; font-size: 16px; background-color: black; padding: 8px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;}
+/*end of my portfoilo*/
+
+
+
+
+
+
+
+/*start of get-in-touch*/
+.get-in-touch {width: 100%; background-image: url(../Images/client-testimonial.jpg); background-attachment: fixed; background-size: cover;}
+.profile-img { border: 2px solid  #b82429; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;}
+.carousel-inner {padding: 5% 0; cursor: move;}
+/*end of get-in-touch*/
+
+
+
+
+
+
+
+
+/*START OF FOOTER {HIRE ME}*/
+footer.hire-me {padding: 5% 0 0 0;}
+div.footer-title h2 {font-weight: 700; color: #444444;}
+div.footer-title p { color: #777777; font-weight: 300;}
+footer.hire-me div.footer-content {margin: 5% 0;}
+footer.hire-me form.row input {border :1px solid #9a9a9a;}
+footer.hire-me form.row textarea {resize: none; height: 150px; border-color: #9a9a9a;}
+footer.hire-me form.row button {padding: 10px 20px; color: #fff; background-color: #ec3237; border :none;}
+div.footer-content div p { color: #777777; font-weight: 300;}   
+a.footer-mail {color: #BF360C; text-decoration: none;}
+a.footer-mail i {color: #777777;}
+div.footer-bottom {border-top: 1px solid rgb(196, 194, 194); padding: 20px 0 10px;}
+div.footer-bottom p {color: #9e9e9e;}
+div.footer-bottom p a {text-decoration: none; color: #BF360C;}
+/*END OF FOOTER {HIRE ME}*/
